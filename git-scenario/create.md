@@ -2,19 +2,30 @@
 
 >In this step, we create a email configuration global in git.
 >This email will be use in our commits.
->This are practical when we're seeking an author of any commits  
+>This are practical when we're seeking an author of any commits.  
 
 ## Use git commands for global configuration
 
 ---
 
-### List of command
+### Commands for configure
 
-* Global command
+* Global email command
 
 ` git config --global user.email "ouruser@ourmail.com" `{{exec}}
 
-* Local and System command
+* Local and System email command
 
-` git config --local user.email "otheruser@othermail.com" `{{}}
-` git config --system user.email "systemuser@alternatemail.com" `{{}}
+` git config --local user.email "otheruser@othermail.com" `{{exec}}
+
+<br>
+
+` git config --system user.email "systemuser@alternatemail.com" `{{exec}}
+
+* Global user command
+
+` git config --global user.name="Jhoe Doe" `{{exec}}
+
+* View configuracion
+
+` git config --list `{{exec}}
