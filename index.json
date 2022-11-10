@@ -1,0 +1,30 @@
+{
+    "title": "Git clone and configuration",
+    "description": "How clone git repos and how configure it",
+    "details": {
+      "intro": {
+        "title": "Configure git user and email",
+        "text": "init/init.md"
+      },
+      "steps": [
+        {
+          "title": "Configure git user global",
+          "text": "stepone/step.md"
+        },
+        {
+          "title": "Configura git email global",
+          "text": "steptwo/step.md"
+        }
+      ],
+      "finish": {
+        "title": "Finish Scenario",
+        "text": "finish/finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    },
+    "interface": {
+      "layout": "ide"
+    }
+  }
