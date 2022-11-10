@@ -14,17 +14,15 @@
 
 > ` git config --global user.email "ouruser@ourmail.com" `{{exec}}
 
-* Local and System configuration commands
-Tareas
+* Local (need initiate repo) and System configuration commands
 
-: Primero iniciamos el repositorio.
 > ` git init `{{exec}}
 
-
+* Local user
 
 > ` git config --local user.email "otheruser@othermail.com" `{{exec}}
 
-<br>
+* System user
 
 > ` git config --system user.email "systemuser@alternatemail.com" `{{exec}}
 
@@ -35,3 +33,11 @@ Tareas
 * View configuracion
 
 > ` git config --list `{{exec}}
+
+### Links to Internet sources
+
+> Atlassian git config page [Link](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
+
+<br>
+
+> Git official page [Link](https://git-scm.com/book/es/v2/Personalizaci%C3%B3n-de-Git-Configuraci%C3%B3n-de-Git)
