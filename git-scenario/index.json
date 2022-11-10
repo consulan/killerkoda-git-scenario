@@ -1,16 +1,19 @@
 {
-    "title": "Code Snippets",
-    "description": "Include code snippets of various languages",
+    "title": "Git initial",
+    "description": "Initial tuto for create, clone and push repos",
     "details": {
       "intro": {
         "text": "init.md"
       },
       "steps": [
         {
-          "text": "step.md"
+          "text": "create.md"
         },
         {
-          "text": "step1.md"
+          "text": "clone.md"
+        },
+        {
+          "text": "push.md"
         }
       ],
       "finish": {
