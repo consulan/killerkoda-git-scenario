@@ -3,18 +3,18 @@
     "description": "Include code snippets of various languages",
     "details": {
       "intro": {
-        "text": "init/init.md"
+        "text": "init.md"
       },
       "steps": [
         {
-          "text": "stepone/step.md"
+          "text": "step.md"
         },
         {
-          "text": "steptwo/step.md"
+          "text": "step1.md"
         }
       ],
       "finish": {
-        "text": "finish/finish.md"
+        "text": "finish.md"
       }
     },
     "backend": {
