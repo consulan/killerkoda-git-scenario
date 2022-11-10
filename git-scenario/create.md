@@ -12,9 +12,13 @@
 
 * Global email command
 
-` git config --global user.email "ouruser@ourmail.com" `{{exec}}
+> ` git config --global user.email "ouruser@ourmail.com" `{{exec}}
 
 * Local and System email command
+
+` git init `{{exec}}
+
+<br>
 
 ` git config --local user.email "otheruser@othermail.com" `{{exec}}
 
@@ -24,7 +28,7 @@
 
 * Global user command
 
-` git config --global user.name="Jhoe Doe" `{{exec}}
+` git config --global user.name "Jhoe Doe" `{{exec}}
 
 * View configuracion
 
