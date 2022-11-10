@@ -14,22 +14,24 @@
 
 > ` git config --global user.email "ouruser@ourmail.com" `{{exec}}
 
-* Local and System email command
+* Local and System configuration commands
+Tareas
 
-` git init `{{exec}}
+: Primero iniciamos el repositorio.
+> ` git init `{{exec}}
+
+
+
+> ` git config --local user.email "otheruser@othermail.com" `{{exec}}
 
 <br>
 
-` git config --local user.email "otheruser@othermail.com" `{{exec}}
-
-<br>
-
-` git config --system user.email "systemuser@alternatemail.com" `{{exec}}
+> ` git config --system user.email "systemuser@alternatemail.com" `{{exec}}
 
 * Global user command
 
-` git config --global user.name "Jhoe Doe" `{{exec}}
+> ` git config --global user.name "Jhoe Doe" `{{exec}}
 
 * View configuracion
 
-` git config --list `{{exec}}
+> ` git config --list `{{exec}}
