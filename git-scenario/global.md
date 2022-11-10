@@ -36,8 +36,10 @@
 
 ### Links to Internet sources
 
+#### Atlassian
+
 > Atlassian git config page [Link](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
 
-<br>
+#### Git
 
 > Git official page [Link](https://git-scm.com/book/es/v2/Personalizaci%C3%B3n-de-Git-Configuraci%C3%B3n-de-Git)
