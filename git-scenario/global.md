@@ -1,8 +1,12 @@
 # Step One - Create a global email git
 
->In this step, we create a email configuration global in git.
+>In this step, we create a global configuration email and user in git.
 >This email will be use in our commits.
->This are practical when we're seeking an author of any commits.  
+>In the other hand, we configurate a local email and user into the repo directory
+
+## Objective
+
+> *Configure global and local properties for git*
 
 ## Use git commands for global configuration
 
