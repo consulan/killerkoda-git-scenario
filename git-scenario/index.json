@@ -3,14 +3,18 @@
     "description": "Initial tuto for create, clone and push repos",
     "details": {
       "intro": {
+        "title": "Introduction",
         "text": "init.md"
       },
       "steps": [
         {
+          "title":"Global git configuration",
           "text": "global.md"
         },
         {
-          "text": "clone.md"
+          "title":"Clone a repo",
+          "text": "clone.md",
+          "background":"back/copyssh.sh"
         },
         {
           "text": "push.md"

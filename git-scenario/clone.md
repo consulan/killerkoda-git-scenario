@@ -37,4 +37,10 @@
 
 * Open with vi editor the README.md
 
-> ` vi  `
+> ` vi README.md `{{exec}}
+
+* Insert one or two lines
+* Enter to command mode in vi pressing ESC, and then wq!
+* Add the file change to staging area
+
+> ` git add README.md `{{exec}}
