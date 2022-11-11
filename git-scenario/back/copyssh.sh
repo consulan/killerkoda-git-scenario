@@ -1,6 +1,6 @@
 echo cp privatekey
 
-cat << EOF > /tmp/privkey_github
+cat << EOF > /tmp/privkey
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
 NhAAAAAwEAAQAAAgEA9C77pw8S0HQl9YzsuS6wk+8SULEk5YTdPtdpCcjyyhpeCXa5dnAs
@@ -59,11 +59,11 @@ cat << EOF >/tmp/config
  Host github.com
     User juantortizconsulan
     Hostname github.com
-    IdentityFile /root/.ssh/github_killercoda
+    IdentityFile /root/.ssh/privkey
     IdentitiesOnly yes
 EOF
 
 echo Make changes
-mv /tmp/privkey_github /root/.ssh/
+mv /tmp/privkey /root/.ssh/
 mv /tmp/config /root/.ssh/
 
