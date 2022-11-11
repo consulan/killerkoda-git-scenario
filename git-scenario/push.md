@@ -19,8 +19,7 @@
 * Insert the Mermaid code into README.md
 
 ````mermaid
- ```
- mermaid
+ ```mermaid
  graph TD;
     A-->B;
     A-->C;
