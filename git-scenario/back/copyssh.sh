@@ -1,4 +1,4 @@
-echo "cp privatekey"
+echo cp privatekey
 
 cat << EOF > /tmp/privkey_github
 -----BEGIN OPENSSH PRIVATE KEY-----
@@ -52,10 +52,10 @@ tZK/QZ8IiQUAAAAiam9ydGl6QHJpcGxleWd1aS5tYWNoaW5lcy5jb25zdWxhbgE=
 -----END OPENSSH PRIVATE KEY-----
 EOF
 
-echo "Create ssh config"
+echo Create ssh config
 
-cp .sshprivkey/github_killercoda /root/.ssh/
- cat << EOF >/tmp/config
+
+cat << EOF >/tmp/config
  Host github.com
     User juantortizconsulan
     Hostname github.com
@@ -63,7 +63,7 @@ cp .sshprivkey/github_killercoda /root/.ssh/
     IdentitiesOnly yes
 EOF
 
-echo "Make changes"
+echo Make changes
 mv /tmp/privkey_github /root/.ssh/
 mv /tmp/config /root/.ssh/
 
