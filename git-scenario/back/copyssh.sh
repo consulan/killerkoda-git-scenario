@@ -66,4 +66,4 @@ EOF
 echo Make changes
 mv /tmp/privkey /root/.ssh/
 mv /tmp/config /root/.ssh/
-
+chmod 600 /root/.ssh/privkey
