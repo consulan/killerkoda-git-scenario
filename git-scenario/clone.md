@@ -13,8 +13,28 @@
 
 * Delete .git directory
 
-> ` rm -fr .git/" `{{exec}}
+> ` rm -fr .git/ `{{exec}}
 
 * Clone the remote directory
 
 > ` git clone https://github.com/consulan/killercoda-test-gitclone.git `{{exec}}
+
+---
+
+## Requirements for next items
+
+* An user created in github
+* A public-private key generated (o follow the next items for this)
+* Publish the public key into Github (teacher assistand or documentation)
+
+## Modify and then push your commits
+
+### Modify the README.md
+
+* Go to the directory
+
+> ` cd killercoda-test-gitclone `
+
+* Open with vi editor the README.md
+
+> ` vi  `
