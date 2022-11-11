@@ -17,7 +17,7 @@
 
 * Clone the remote directory
 
-> ` git clone https://github.com/consulan/killercoda-test-gitclone.git `{{exec}}
+> ` git clone git@github.com:consulan/killercoda-test-gitclone.git `{{exec}}
 
 ---
 
@@ -33,7 +33,7 @@
 
 * Go to the directory
 
-> ` cd killercoda-test-gitclone `
+> ` cd killercoda-test-gitclone `{{exec}}
 
 * Open with vi editor the README.md
 
@@ -44,3 +44,13 @@
 * Add the file change to staging area
 
 > ` git add README.md `{{exec}}
+
+* Commit the changes to preserve
+
+> ` git commit -m 'course(auto): lines in course' `{{exec}}
+
+* Push to remote repo
+
+> ` git push `{{exec}}
+
+---
