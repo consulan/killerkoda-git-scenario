@@ -21,12 +21,6 @@
 
 ---
 
-## Requirements for next items
-
-* An user created in github
-* A public-private key generated (o follow the next items for this)
-* Publish the public key into Github (teacher assistand or documentation)
-
 ## Modify and then push your commits
 
 ### Modify the README.md
