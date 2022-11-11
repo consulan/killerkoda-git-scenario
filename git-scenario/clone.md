@@ -1,4 +1,4 @@
-# Step One - Create global user git
+# Step Two - Create global user git
 
 >In this step, we clone a remote repo for work with them.
 >In the last step we init a repo. For this cause, we erase the .git directory.
