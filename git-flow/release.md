@@ -1,8 +1,8 @@
-# Step Two - Clone a repo
+# Step Two - Create global user git
 
 >In this step, we clone a remote repo for work with them.
 >In the last step we init a repo. For this cause, we erase the .git directory.
->And then we clone the remote directory from github (public).
+>And then we clone the remote directory from bitbucket (public).
 >In the next item we remove the created directory from clone repo, and make a new directory for push the content to remote repo.
 
 ## Objective

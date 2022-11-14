@@ -1,0 +1,39 @@
+{
+    "title": "Git Flow - exercises",
+    "description": "Git Flow install and probe",
+    "details": {
+      "intro": {
+        "title": "Introduction",
+        "text": "init.md",
+        "background":"back/copyssh.sh"
+      },
+      "steps": [
+        {
+          "title":"Git flow initialize",
+          "text": "install.md"
+        },
+        {
+          "title":"Git flow feature lifecycle",
+          "text": "feature.md"
+        },
+        {
+          "title":"Git flow release lifecycle",
+          "text": "release.md"
+        },
+        {
+          "title":"Git flow bugfix/hotfix lifecycle",
+          "text": "bug.md"
+        },
+        {
+          "title":"Git flow support lifecycle",
+          "text": "support.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
