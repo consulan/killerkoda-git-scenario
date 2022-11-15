@@ -1,6 +1,6 @@
 # Step One - Init git flow
 
->In this step, we init the "git flow" work. 
+>In this step, we init the "git flow" work.
 >When the prompt ask over the name of branchs. We need enter the name or press "enter" key.
 >In the ask over "support" branch enter "devops/".
 

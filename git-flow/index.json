@@ -19,14 +19,6 @@
         {
           "title":"Git flow release lifecycle",
           "text": "release.md"
-        },
-        {
-          "title":"Git flow bugfix/hotfix lifecycle",
-          "text": "bug.md"
-        },
-        {
-          "title":"Git flow support lifecycle",
-          "text": "support.md"
         }
       ],
       "finish": {

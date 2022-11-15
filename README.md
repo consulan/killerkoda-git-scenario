@@ -1,7 +1,11 @@
-# Scenario for killerkoda
+# KillerCoda Scenarios
 
-## Review this scenario because not function and not display it in katacoda
+## Scenario 1 - Git Basic
 
-- Review configuration
-- Review ticket generate
-- Go to Killercoda: [Link a Killercoda](https://killercoda.com/)
+>Este escenario esta realizado para aquella persona que no tiene nociones de Git y que quiere incursionar en el manejo de la herramienta.
+
+* Estado de la publicacion en Killercoda
+
+>Estado de publicacion: 
+
+## Scenario 2 - Git Flow

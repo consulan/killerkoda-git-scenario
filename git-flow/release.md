@@ -1,54 +1,38 @@
-# Step Two - Create global user git
+# Step Three - Work with release branch (and the same form with bugfix and hotfix)
 
->In this step, we clone a remote repo for work with them.
->In the last step we init a repo. For this cause, we erase the .git directory.
->And then we clone the remote directory from bitbucket (public).
->In the next item we remove the created directory from clone repo, and make a new directory for push the content to remote repo.
+>In this step, we was work with the release branch.
+>This branch is only for releases with tags, prepare for deploy to production.
 
 ## Objective
 
-> *Clone a remote repo.Make modifications.Stage with git the work. Commit changes. Push the work to remote repo*
+> *Work with release branch in git flow form*
 
-## Use git commands for clone a public repo
-
----
-
-### Commands for clone
-
-* Delete .git directory
-
-> ` rm -fr .git/ `{{exec}}
-
-* Clone the remote directory
-
-> ` git clone git@github.com:consulan/killercoda-test-gitclone.git `{{exec}}
+## Use git flow commands to work with them
 
 ---
 
-## Modify and then push your commits
+### Release branch
 
-### Modify the README.md
+* Init the release git flow branch (version)
 
-* Go to the directory
+> ` git flow release start 0.1.1 `{{exec}}
 
-> ` cd killercoda-test-gitclone `{{exec}}
+* Publish the release
 
-* Open with vi editor the README.md
+> ` git flow release publish 0.1.1 `{{exec}}
 
-> ` vi README.md `{{exec}}
+* Finalize the release
 
-* Insert one or two lines
-* Enter to command mode in vi pressing ESC, and then wq!
-* Add the file change to staging area
+> ` git flow release finish 0.1.1 `{{exec}}
 
-> ` git add README.md `{{exec}}
+## Hotfix branch (for bugfix are same)
 
-* Commit the changes to preserve
+### Work with hotfix branch
 
-> ` git commit -m 'course(auto): lines in course' `{{exec}}
+* Init the hotfix git flow branch (version)
 
-* Push to remote repo
+> ` git flow hotfix start 0.0.2 `{{exec}}
 
-> ` git push `{{exec}}
+* Finalize a hotfix branch
 
----
+> ` git flow hotfix finish 0.0.2 `{{exec}}

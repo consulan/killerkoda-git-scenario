@@ -1,22 +1,23 @@
-# Step Three - Create a Diagram as Code
+# Step Two - Work with feature branch
 
->In this step, we create a Diagram as Code (DaC) in README.md for document.
+>In this step, we was work with the feature branch.
+>This branch is only for new features, like new functionalities and not minor changes.
 
 ## Objective
 
-> *Document with Mermaid metalanguage for DaC into a repo*
+> *Work with features branch in new files*
 
-## Create a DaC with Mermaid language
+### Init feature with git flow
 
----
+> ` git flow start DEV-1234 `{{exec}}
 
-### Edit README.md
+### Create a new file
 
-* Open editor
+* Create a blank file with touch tool
 
-> ` vi README.md `{{exec}}
+> ` touch NEWFILE.md `{{exec}}
 
-* Insert the Mermaid code into README.md
+* Insert the Mermaid code into NEWFILE.md and save
 
 ````mermaid
  ```mermaid
@@ -28,16 +29,22 @@
 ```
 ````
 
-* Close and save the file README.md pressing *ESC* and so *wq!*
+* Add to stage area the file
 
-* Add the modifies to staging
-
-> ` git add . `{{exec}}
+` git add NEWFILE.md `{{exec}}
 
 * Commit the changes
 
-> ` git commit -m 'feat(docs): DaC' `{{exec}}
+> ` git commit -m 'feature(DEV-1234): ' `{{exec}}
 
-* Push to the remote repo
+* Publish the feature
 
-> ` git push origin main `
+> ` git flow feature publish DEV-1234 `{{exec}}
+
+* Finish the feature branch
+
+> ` git flow feature finish DEV-1234 `
+
+* Other options are:
+
+> git flow feature pull origin *FEATURE* or git flow feature track *FEATURE*
