@@ -9,7 +9,7 @@
 
 ### Init feature with git flow
 
-> ` git flow start DEV-1234 `{{exec}}
+> ` git flow feature start DEV-1234 `{{exec}}
 
 ### Create a new file
 
